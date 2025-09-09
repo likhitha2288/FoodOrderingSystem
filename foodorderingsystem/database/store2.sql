@@ -77,10 +77,6 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `password`, `contact`, `city`, `address`) VALUES
-(4, 'yugesh verma', 'yugeshverma32@gmail.com', '14e1b600b1fd579f47433b88e8d85291', '6263056779', 'bhilai', '25 commercial complex, nehru nagar,east near vijya bank, bhilai C.G.'),
-(5, 'yugesh', 'yugeshverma@gmail.com', '14e1b600b1fd579f47433b88e8d85291', '9165063741', 'bhilai', 'bhilai'),
-(6, 'Durga Prasad Jyothula', 'durgaprasad@gmail.com', '14e1b600b1fd579f47433b88e8d85291', '9573719715', 'KOTHAPALLE', 'High school Street');
 
 -- --------------------------------------------------------
 
@@ -102,22 +98,7 @@ CREATE TABLE `users_items` (
 -- Dumping data for table `users_items`
 --
 
-INSERT INTO `users_items` (`id`, `user_id`, `item_id`, `status`) VALUES
-(7, 3, 3, 'Added to cart'),
-(8, 3, 4, 'Added to cart'),
-(9, 3, 5, 'Added to cart'),
-(10, 3, 11, 'Added to cart'),
-(11, 1, 9, 'Added to cart'),
-(12, 1, 2, 'Added to cart'),
-(13, 1, 8, 'Added to cart'),
-(14, 4, 2, 'Confirmed'),
-(18, 5, 11, 'Added to cart'),
-(20, 5, 5, 'Added to cart'),
-(22, 6, 1, 'Confirmed'),
-(23, 6, 2, 'Confirmed'),
-(25, 6, 3, 'Confirmed');
 
-COMMIT;
 
 -- --------------------------------------------------------
 -- Table for booking system
